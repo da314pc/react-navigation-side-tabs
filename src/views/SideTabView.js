@@ -70,7 +70,7 @@ const SideTabView = (props) => {
                 style={StyleSheet.absoluteFill}
                 isVisible={isFocused}
               >
-                <Header descriptor={descriptor}/>
+                {/* <Header descriptor={descriptor}/> */}
                 <SceneContent isFocused={isFocused}>
                   {descriptor.render()}
                 </SceneContent>
